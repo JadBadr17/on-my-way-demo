@@ -1,0 +1,66 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  padding: 20px;
+  margin-top: 30px; 
+}
+
+.ride-card {
+  width: 22%; /* Allows 4 cards per row */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ride-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #222;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-content {
+  padding: 16px;
+  color: #345e82;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.accept-button {
+  background-color: #e5072d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.accept-button:hover {
+  background-color: #d10426;
+  transform: scale(1.1);
+}
+
+.accept-button:active {
+  transform: scale(1);
+  background-color: #d10426;
+}

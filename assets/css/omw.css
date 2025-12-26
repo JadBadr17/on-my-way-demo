@@ -1,0 +1,154 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: block;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.one {
+  	background: white;
+  	width: 100%; 
+    border-bottom: 2px solid #e5072d;
+}
+
+.one ul {
+  text-align: center;
+}
+
+.one ul {
+  list-style: none;
+}
+
+.one ul li {
+  display: inline;
+}
+
+.one ul li a{
+  color: #222;
+  text-decoration: none;
+  text-transform: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 40px;
+  display: inline-block;
+}
+.one ul li a:hover {
+  background: #222;
+  color: #ccc;
+  transform: 40px;
+  text-shadow: 0 0 10px #ccc;
+}
+
+#login {
+	color: #ffffff;
+  background-color: #222;
+	padding: 15px 20px;
+	border-radius: 0.2em;
+	text-shadow: none;
+}
+#login:hover{
+  background: #333;
+  transform: 40px;
+}
+
+.logout{
+  color: #ffffff;
+  background-color: #222;
+	padding: 15px 20px;
+	border-radius: 0.2em;
+	text-shadow: none;
+}
+
+.logout:hover{
+  background: #333;
+  transform: 40px;
+}
+
+button{
+	margin: 2% 4% 4% 40%;
+	border-radius: 0.5em;
+	border-color: #222;
+	padding: 4% 4%;
+	font-size: 160%;
+	text-decoration: bold;
+	color:white;
+	font-family: Montserrat, sans-serif;
+	background: #222;
+	text-shadow: 0px -2px #222;
+  }
+
+
+
+footer{
+    width: 100%;
+    border-top: 2px solid #e5072d;
+    margin-top: auto;
+    float: left;
+  }
+footer .foot-main{
+    
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    flex: 25%;
+    flex-wrap: wrap;
+   
+}
+.foot-row{
+    padding: 20px 40px;
+    margin: 20px;
+
+
+}
+.foot-row h4{
+    color: rgb(240, 230, 230);
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    position: relative;
+    text-transform: uppercase;    
+    
+}
+.foot-row h4::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: -10px;
+    background-color: #e5072d;
+    width: 50px;
+    height: 2px;
+
+}
+
+.foot-row li{
+    list-style: none;
+    margin: 15px 0;
+}
+.foot-row ul li a{
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+    font-weight: 300;
+    display: block; 
+    transition: all 0.3s ease;
+
+}
+.foot-row ul li a:hover{
+    color: #fff;
+    padding-left: 10px;
+    margin-top: auto;
+    width: 100%;
+}
+
+.wrgPage{
+  max-width: 1024px;
+  margin: 10% auto;
+}
+
