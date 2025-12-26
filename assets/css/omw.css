@@ -41,6 +41,11 @@ body {
   padding: 40px;
   display: inline-block;
 }
+
+.one ul li img{
+  padding: 40px;
+  display: inline-block;
+}
 .one ul li a:hover {
   background: #222;
   color: #ccc;
